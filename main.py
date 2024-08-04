@@ -8,7 +8,7 @@ import requests
 TOKEN = ''        #DISCORD BOT TOKEN
 CHANNEL_ID = 123  #DISCORD CHANNEL ID
 webdelay = 5
-delay = 1
+delay = 2
 nointernet_display = False
 
 license = input("License Number: ")
@@ -16,8 +16,9 @@ vnumber = input("Version Number: ")
 surname = input("Last Name: ")
 dob = input("Date Of Birth: ")
 desired_date = input("Date to look from: ")
-debug_mode = input("Debug Mode (y/n): ")
-print("Console Log: ")
+debug_mode = input("Debug Mode (y/n): \n")
+print("Console Log: \n")
+print("---------------------------")
 
 async def is_connected():
     try:
